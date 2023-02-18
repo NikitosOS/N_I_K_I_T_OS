@@ -1,34 +1,61 @@
-
-body{
-    background: gainsboro;
-    color: black;
-
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'Babylonica', cursive;
-}
-/* Аватарка */
-img{
-    border-radius: 28px;
-    width: 200px;
+header{
+    border: 5px #acacac solid;
+    padding: 10px;
     box-shadow: 4px 4px 14px black;
-    margin-right: 10px;
 }
-button{
-    border: none;
-    border-radius: 7px;
-    padding: 10px 25px;
-    background: #acacac;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: 'Babylonica', cursive;
+body{
     color: black;
-    box-shadow: 1px 1px 2px gray;
-    margin-right: 10px;
+    font-family: 'Ubuntu', sans-serif;
 }
-button:hover{
-    background: #818181;
-    box-shadow: 1px 1px 2px black;
+footer{
+    border: 5px #acacac solid;
+    padding: 5px;
+    background-color: rgb(26, 26, 26);
+    margin-bottom: 20px;
+    border-radius: 14px;
+    box-shadow: 4px 4px 14px black;
 }
+
+div{
+    border: 5px #acacac solid;
+    margin-left: 50px; 
+    margin-right: 50px;
+    backdrop-filter: blur(20px);
+    background: rgba(50, 50, 50);
+    padding: 20px;
+    border-radius: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 14px black;
+}
+
+h1{
+    color: #acacac;
+}
+
+h2{
+    color: #acacac;
+}
+
+a{
+    color: #acacac;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+hr{
+    border-radius: 14px;
+}
+
+button {
+    box-shadow: 4px 4px 14px black;
+    display: inline-block;
+    background: rgb(50, 50, 50);
+    color: rgb(0, 0, 0);
+    padding: .5em 2em;
+    border: 2px solid;
+    border-radius: 10px;
+    transition: 0.2s;
+  } 
+  button:hover { background: rgb(40, 40, 40); box-shadow: 4px 4px 14px black; }
+  button:active { background: rgb(35, 35, 35); box-shadow: 2px 2px 7px black; }
