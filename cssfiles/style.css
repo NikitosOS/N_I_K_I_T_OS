@@ -2,6 +2,8 @@ header{
     border: 5px #acacac solid;
     padding: 10px;
     box-shadow: 4px 4px 14px black;
+    background-color: rgb(26, 26, 26);
+    border-radius: 14px;
 }
 body{
     color: black;
@@ -39,14 +41,8 @@ div.shop:hover{
     box-shadow: 0px 0px 40px #acacac;
 }
 
-h1{
-    color: #acacac;
-}
-
-h2{
-    color: #acacac;
-}
-
+h1{color: #acacac;}
+h2{color: #acacac;}
 a{
     color: #acacac;
     text-decoration: none;
